@@ -19,17 +19,24 @@ pipeline{
                 }
             }
 
-            stage("Stage-2*"){
+            stage("Stage-3"){
                 steps{
-                    echo "Stage:2* This is STAGE:2*" 
+                    echo "Stage:3 This is STAGE:3" 
                 }
             }
 
-             stage("Stage-3*"){
+            stage("Stage-4"){
                 steps{
-                    echo "Stage:3* This is STAGE:3*********" 
+                    echo "Stage:4 This is STAGE:4" 
                 }
             }
+
+             stage("Stage-5"){
+                steps{
+                    echo "Stage:5 This is STAGE:5" 
+                }
+            }
+
         } 
     
 }
