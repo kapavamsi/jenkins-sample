@@ -19,6 +19,18 @@ pipeline{
                 }
             }
 
+            stage("Stage-3"){
+                steps{
+                    echo "Stage:3 This is STAGE:3" 
+                }
+            }
+
+            stage("Stage-4"){
+                steps{
+                    echo "Stage:4 This is STAGE:" 
+                }
+            }
+
         } 
     
 }
